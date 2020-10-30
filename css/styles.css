@@ -834,7 +834,7 @@ footer a {
     cursor: pointer;
     padding: 32px 0;
     margin: 0;
-    border-bottom: 1px solid #DCDFE6;
+    border-top: 1px solid #DCDFE6;
   }
 
   .browser-footer-head {
@@ -849,6 +849,15 @@ footer a {
 
   .large-link-content, .small-content {
     display: none;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .large-link-column {
+    flex-basis: 100%;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 20px;
   }
 
   .mobile-arrow {
